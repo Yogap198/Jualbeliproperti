@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>PropertiKu - Jual Beli Properti</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>PropertiKu</h1>
+    <p>Platform Jual Beli Properti Online</p>
+  </header>
+
+  <main>
+    <section class="form-section">
+      <h2>Pasang Properti Anda</h2>
+      <form id="propertyForm">
+        <input type="text" placeholder="Nama Properti" required />
+        <input type="number" placeholder="Harga (Rp)" required />
+        <input type="text" placeholder="Lokasi" required />
+        <input type="number" placeholder="Luas Bangunan (m²)" />
+        <input type="number" placeholder="Luas Tanah (m²)" />
+        <textarea placeholder="Deskripsi Properti"></textarea>
+        <button type="submit">Pasang Properti</button>
+      </form>
+    </section>
+
+    <section id="propertyList">
+      <h2>Daftar Properti</h2>
+      <ul id="listings"></ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 PropertiKu. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
